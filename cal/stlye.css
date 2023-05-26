@@ -1,0 +1,149 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.main{
+    background-color: rgb(36, 35, 35);
+    height: 95vh;
+    /* width: 100%; */
+    max-width: 375px;
+    max-height: 753px;
+    border-radius: 50px;
+
+}
+.top{
+    height: 25vh;
+    width: 100%;
+    /* background-color: #313131;    */
+    align-items: end;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.nn{
+    width: 100%;
+    height: 10vh;
+    font-size: 40px;
+    text-align: right;
+    outline: none;   
+    margin-top: 80px;
+    background-color: gray;
+    border: none;
+    padding-right: 10px;
+    color: white;
+
+
+}
+.nav{
+    width: 100%;
+    height: 5vh;
+    /* background-color: red; */
+}
+.bottom{
+    /* margin-top: 60px; */
+    width: 100%;
+    /* height: 100%; */
+    /* background-color: rgba(255, 255, 255, 0.935);
+    backdrop-filter: blur 10px; */
+    /* background-color: gray; */
+    padding: 7px;
+
+}
+.cr{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    border: none;
+    margin-bottom: 30px;    
+    margin-left: 14px;
+        font-size: 18px;
+
+
+}
+.c3{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    border: none;
+    margin-bottom: 30px;    
+    margin-left: 14px;
+    background-color: #f19933;
+    color: white;
+    transition: all 0.6s ease-in ;
+    cursor: pointer;
+    font-size: 18px;
+
+
+
+}
+.c3:focus{
+    background-color: white;
+    color: #f19933;
+}
+.c1{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    border: none;
+    margin-bottom: 30px;    
+    margin-left: 14px;
+    background-color: #9f9f9f;
+    color: white;
+        font-size: 18px;
+        transition: all 0.6s ease ;
+        cursor: pointer;
+
+
+}
+.c1:focus{
+    background-color: white;
+    color: #f19933;
+}
+.c2{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    border: none;
+    margin-bottom: 30px;    
+    margin-left: 14px;
+    background-color:#313131;
+    color: white;
+        font-size: 18px;
+         transition: all 0.6s ease ;
+         cursor: pointer;
+
+
+}
+.c2:focus{
+    background-color: white;
+    color: #f19933;
+}
+.cp{
+    width: 160px;
+    height: 80px;
+    border-radius: 100px;
+    border: none;
+    margin-bottom: 30px;
+    margin-left: 14px;
+    background-color:#313131;
+    color: white;
+     transition: all 0.6s ease ;
+     cursor: pointer;
+
+
+}
+.cp:focus{
+    background-color: white;
+    color: #f19933;
+}
